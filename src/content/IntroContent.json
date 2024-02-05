@@ -1,13 +1,15 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Dr. Avinita Gautam",
+  "text": "Post Doc Fellow, Newton-Bhabha Fellow 2020,\nDST-INSPIRE Fellow.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Research Items",
+      "id": "research"
     },
     {
-      "title": "Learn more",
-      "color": "#fff"
+      "title": "Achievements",
+      "color": "#fff",
+      "id": "publications"
     }
   ]
 }

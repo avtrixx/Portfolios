@@ -1,0 +1,21 @@
+{
+  "title": "Research",
+  "text": "Below are:",
+  "section": [
+    {
+      "title": "University of Catania",
+      "content": "Post-doctoral Fellowship\nMay 2022 –May 2023\nPost-Doctoral Fellow\nLab: Department of Drug and Health Sciences, University of Catania, Catania, Italy",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "University of Cambridge",
+      "content": "Newton-Bhabha Fellowship 2020 September 2021 – January 2022 Lab: Department of Veterinary Medicine, ",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "The Institute of Mathematical Sciences, Chennai",
+      "content": "Department of Veterinary Medicine, University of Cambridge, U.K.",
+      "icon": "notes.svg"
+    }
+  ]
+}
