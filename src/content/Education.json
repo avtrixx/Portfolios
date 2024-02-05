@@ -5,22 +5,26 @@
     {
       "title": "PhD Mathematics",
       "content": "DST- Centre of Interdisciplinary Mathematical Science, Institute of Science, BHU, Varanasi, India",
-      "icon": "notes.svg"
+      "duration": "May 2017-April 2022",
+      "icon": "education.svg"
     },
     {
-      "title": "University of Catania",
-      "content": "Post-doctoral Fellowship\nMay 2022 May 2023\nPost-Doctoral Fellow\nLab: Department of Drug and Health Sciences, University of Catania, Catania, Italy",
-      "icon": "notes.svg"
+      "title": "M.Sc. Mathematics",
+      "content": "Central University of South Bihar, India",
+      "duration": "June 2014-June 2016",
+      "icon": "education.svg"
     },
     {
-      "title": "University of Catania",
-      "content": "Post-doctoral Fellowship\nMay 2022 May 2023\nPost-Doctoral Fellow\nLab: Department of Drug and Health Sciences, University of Catania, Catania, Italy",
-      "icon": "notes.svg"
+      "title": "B.Sc. Math (Hons.)",
+      "content": "Patna Women's College Patna University, Patna, Bihar, India",
+      "duration": "June 2011-April 2014",
+      "icon": "education.svg"
     },
     {
-      "title": "University of Catania",
-      "content": "Post-doctoral Fellowship\nMay 2022 May 2023\nPost-Doctoral Fellow\nLab: Department of Drug and Health Sciences, University of Catania, Catania, Italy",
-      "icon": "notes.svg"
+      "title": "12th BOARD, CBSE",
+      "content": "Kendriya Vidyalaya sonepur, Bihar, Ind",
+      "duration": "April 2008-May 2009",
+      "icon": "education.svg"
     }
   ]
 }

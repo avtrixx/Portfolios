@@ -2,22 +2,28 @@
   "title":"PUBLICATIONS",
   "content":[
     {
-      "text":"Avinita Gautam and Anupam Priyadarshi, Mathematical modelling of Toxoplasma Gondii and host immune response,AIP Conference Proceedings 1975, 030002 (2018); American Institute of Physics, https://doi.org/10.1063/1.5042172"
+      "text":"Avinita Gautam and Anupam Priyadarshi, Mathematical modelling of Toxoplasma Gondii and host immune response,AIP Conference Proceedings 1975, 030002 (2018); American Institute of Physics. ",
+      "link" : "https://doi.org/10.1063/1.5042172"
     },
     {
-      "text":"Gautam A., Priyadarshi A. (2022) Mathematical Perspective of Hodgkin-Huxley Model and Bifurcation Analysis.Methods of Mathematical Modelling and Computation for Complex Systems. Studies in Systems, Decision and Control,vol 373. Springer, Cham. https://doi.org/10.1007/978-3-030-77169-0_3"
+      "text":"Gautam A., Priyadarshi A. (2022) Mathematical Perspective of Hodgkin-Huxley Model and Bifurcation Analysis.Methods of Mathematical Modelling and Computation for Complex Systems. Studies in Systems, Decision and Control,vol 373. Springer, Cham. ",
+      "link" : "https://doi.org/10.1007/978-3-030-77169-0_3"
     },
     {
-      "text":"Avinita Gautam and Anupam Priyadarshi, Periodic firings in neurons with external sinusoidal applied current, Journalof Mathematical and Computational Science, Vol 9, No 6 (2019), 707-725https://scik.org/index.php/jmcs/article/view/4223"
+      "text":"Avinita Gautam and Anupam Priyadarshi, Periodic firings in neurons with external sinusoidal applied current, Journalof Mathematical and Computational Science, Vol 9, No 6 (2019), 707-725. ",
+      "link" : "https://scik.org/index.php/jmcs/article/view/4223"
     },
     {
-      "text":"Worked as a Resource Person in two two-day workshops on “Mathematics for Biologists Using Computational Tools”organized by the Bioinformatics Department, MMV, BHU, Varanasi."
+      "text":"Ashutosh Maurya, Anupam Priyadarshi and Avinita Gautam, Competition enhances Coexistence and support Biodiversity, AIP Conference Proceedings 2253, 020025 (2020). ",
+      "link" : "https://doi.org/10.1063/5.0018929"
     },
     {
-      "text":"DST Inspire JRF, 2017."
+      "text":"Avinita Gautam and Anupam Priyadarshi, Sensitivity of Dynamics of Toxoplasma Gondii and Host Immune Response. Chaotic Modeling and Simulation (CMSIM) , 71-90, 2021, ISSN 2241-0503. ",
+      "link" : "http://www.cmsim.eu/papers_pdf/april_2021_papers/April_1_2021_CMSIM_Gautam_71-90.pdf"
     },
     {
-      "text":"Gold Medalist of Central University of South Bihar in M. Sc Mathematics (2014-16)"
+      "text":"Avinita Gautam and Anupam Priyadarshi, Impact of External Applied Currents in BVP Model, ITM Web of Conferences. Vol. 34. EDP Sciences, 2020 . ",
+      "link" : "https://doi.org/10.1051/itmconf/20203403007"
     }
   ]
 }

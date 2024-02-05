@@ -7,6 +7,7 @@ export interface ContentBlockProps {
     title: string;
     content: string;
     icon: string;
+    duration?: string
   }[];
   button?: (
     | {

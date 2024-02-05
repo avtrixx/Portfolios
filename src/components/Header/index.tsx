@@ -33,8 +33,8 @@ const Header = ({ t }: { t: TFunction }) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("academic")}>
-          <Span>{t("Academic")}</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("education")}>
+          <Span>{t("Education")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("research")}>
           <Span>{t("Research")}</Span>
@@ -46,7 +46,7 @@ const Header = ({ t }: { t: TFunction }) => {
           <Span>{t("Publications")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("award")}>
-          <Span>{t("Award")}</Span>
+          <Span>{t("Achievements")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
@@ -65,7 +65,7 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="" width="101px" height="64px" />
+            <SvgIcon src="ag.svg" width="40px" height="40px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />

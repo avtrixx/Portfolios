@@ -4,17 +4,22 @@
   "section": [
     {
       "title": "University of Catania",
-      "content": "Post-doctoral Fellowship\nMay 2022 –May 2023\nPost-Doctoral Fellow\nLab: Department of Drug and Health Sciences, University of Catania, Catania, Italy",
+      "content": "Post-doctoral Fellowship",
+      "duration": "May 2022 - May 2023",
+      "lab": "Department of Drug and Health Sciences, University of Catania, Catania, Italy",
       "icon": "notes.svg"
     },
     {
       "title": "University of Cambridge",
-      "content": "Newton-Bhabha Fellowship 2020 September 2021 – January 2022 Lab: Department of Veterinary Medicine, ",
+      "content": "Newton-Bhabha Fellowship",
+       "lab": "Department of Veterinary Medicine, University of Cambridge, U.K",
+      "duration": "2020 September 2021 - January 2022",
       "icon": "notes.svg"
     },
     {
       "title": "The Institute of Mathematical Sciences, Chennai",
-      "content": "Department of Veterinary Medicine, University of Cambridge, U.K.",
+      "content": "AIS Mathematical Biology (2018), Workshop",
+      "duration": "Decemeber 2018",
       "icon": "notes.svg"
     }
   ]

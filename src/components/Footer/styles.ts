@@ -88,7 +88,7 @@ export const Empty = styled("div")`
 `;
 
 export const FooterContainer = styled("div")`
-  max-width: 510px;
+  max-width: 610px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -117,8 +117,8 @@ export const FooterContainer = styled("div")`
   div {
     cursor: pointer;
     margin-right: 15px;
-    width: 25px;
-    height: 25px;
+    width: 55px; !important
+    height: 55px; !important
 
     &:hover {
       fill: rgb(255, 130, 92);

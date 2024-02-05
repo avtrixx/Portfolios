@@ -36,18 +36,18 @@ const ContentBlockWithoutImage = ({
   return (
     <ContentSection>
       <Fade direction={direction} triggerOnce>
+      <h6>{t(title)}</h6>
         <StyledRow
           justify="space-between"
           align="middle"
           id={id}
           direction={direction}
         >
-          <Col lg={11} md={11} sm={12} xs={24}>
+          <Col lg={11} md={8} sm={12} xs={24}>
             <SvgIcon src={icon} width="100%" height="100%" />
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
               {direction === "right" ? (
                 <ButtonWrapper>
@@ -55,6 +55,7 @@ const ContentBlockWithoutImage = ({
                     button.map(
                       (
                         item: {
+                          id?: string
                           color?: string;
                           title: string;
                         },
@@ -64,7 +65,7 @@ const ContentBlockWithoutImage = ({
                           <Button
                             key={id}
                             color={item.color}
-                            onClick={() => scrollTo("about")}
+                            onClick={() => scrollTo(item?.id ? item.id : "")}
                           >
                             {t(item.title)}
                           </Button>
@@ -82,18 +83,21 @@ const ContentBlockWithoutImage = ({
                             title: string;
                             content: string;
                             icon: string;
+                            duration?: string;
                           },
                           id: number
                         ) => {
                           return (
-                            <Col key={id} span={11}>
+                            <Col key={id} span={15}>
                               <SvgIcon
                                 src={item.icon}
                                 width="60px"
                                 height="60px"
                               />
+                              <br></br>
                               <MinTitle>{t(item.title)}</MinTitle>
-                              <MinPara>{t(item.content)}</MinPara>
+                              <MinPara>{t(item?.duration ? item.duration : '' )}</MinPara>
+                              <MinPara>{t(item.content)}</MinPara><br></br>
                             </Col>
                           );
                         }

@@ -1,7 +1,7 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import Publications from "../../content/Publications.json";
-import Academic from "../../content/Academic.json";
+import Award from "../../content/Award.json";
 import Research from "../../content/Research.json";
 import Teaching from "../../content/Teaching.json";
 import Education from "../../content/Education.json";
@@ -35,10 +35,10 @@ const Home = () => {
         content={Education.text}
         section={Education.section}
         icon=""
-        id="academic"
+        id="education"
       />
 
-      <ContentBlock
+      <ContentBlockWithoutImage
         direction="left"
         title={Research.title}
         content={Research.text}
@@ -61,8 +61,8 @@ const Home = () => {
         id="publications"
       />
       <MiddleBlock
-        title={Academic.title}
-        content={Academic.content}
+        title={Award.title}
+        content={Award.content}
         icon="developer.svg"
         id="award"
       />

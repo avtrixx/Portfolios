@@ -1,11 +1,13 @@
 import { TFunction } from "react-i18next";
-export interface ContentBlockProps {
+export interface ContentBlockWithoutImageProps {
   icon: string;
   title: string;
   content: string;
   section?: {
     title: string;
     content: string;
+    duration?: string
+    lab?: string
     icon: string;
   }[];
   button?: (

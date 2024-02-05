@@ -4,17 +4,20 @@
   "section": [
     {
       "title": "Assistant Professor",
-      "content": "Patna Women’s College, Patna University, Bihar, India",
+      "content": "Patna Women's College, Patna University, Bihar, India",
+      "duration": "January 2021-April 2021",
       "icon": "notes.svg"
     },
     {
-      "title": "Assistant Professor",
-      "content": "Patna Women’s College, Patna University, Bihar, India",
+      "title": "Lab Assistant",
+      "content": "DST-CIMS, Institute of Science, BHU, Varanasi",
+      "duration": "August 2019-December 2019",
       "icon": "notes.svg"
     },
     {
-      "title": "Assistant Professor",
-      "content": "Patna Women’s College, Patna University, Bihar, India",
+      "title": "Campus Associate",
+      "content": "Azim Prem Ji Foundation, Tonk, Rajasthan, India",
+      "duration": "July 2016-May 2017",
       "icon": "notes.svg"
     }
   ]

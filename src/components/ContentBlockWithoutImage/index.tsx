@@ -1,8 +1,8 @@
-import { Row, Col } from "antd";
+import { Row, Col, Space } from "antd";
 import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
 
-import { ContentBlockProps } from "./types";
+import { ContentBlockWithoutImageProps } from "./types";
 import { Button } from "../../common/Button";
 import { SvgIcon } from "../../common/SvgIcon";
 import {
@@ -15,6 +15,7 @@ import {
   StyledRow,
   ButtonWrapper,
 } from "./styles";
+import Tooltip from "antd/es/tooltip";
 
 const ContentBlock = ({
   icon,
@@ -25,7 +26,7 @@ const ContentBlock = ({
   t,
   id,
   direction,
-}: ContentBlockProps) => {
+}: ContentBlockWithoutImageProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -36,55 +37,52 @@ const ContentBlock = ({
   return (
     <ContentSection>
       <Fade direction={direction} triggerOnce>
+        <StyledRow
+          justify="space-between"
+          align="middle"
+          id={id}
+          direction={direction}
+        ></StyledRow>
         <h6>{t(title)}</h6>
-        <ContentWrapper>
-          <Content>{t(content)}</Content>
-          {direction === "right" ? (
-            <ButtonWrapper>
-              {typeof button === "object" &&
-                button.map(
+        <ServiceWrapper>
+              <Row justify="space-between">
+                {typeof section === "object" &&
+                section.map(
                   (
                     item: {
-                      color?: string;
                       title: string;
-                      id?: string;
+                      content: string;
+                      duration?: string;
+                      lab?: string;
+                      icon: string;
+
                     },
                     id: number
                   ) => (
-                    <Button
-                      key={id}
-                      color={item.color}
-                      onClick={() => scrollTo(item?.id ? item.id : "")}
-                    >
-                      {t(item.title)}
-                    </Button>
+                    <Row key={id} >
+                    {/* Column for Icon */}
+                    <Col span={6}>
+                      <SvgIcon src={item.icon} width="60px" height="60px" />
+                    </Col>
+              
+                    {/* Column for Title, Duration, and Content */}
+                    <Col >
+                    <ContentWrapper>
+                      <Content>
+                      <MinTitle>{t(item.title)}</MinTitle>
+                      <MinPara>{t(item?.duration ? item.duration : "")}</MinPara>
+                      <MinPara>{t(item?.lab ? item.lab : "")}</MinPara>
+                      <MinPara>{t(item.content)}</MinPara>
+                      </Content>
+                    
+                    </ContentWrapper>
+                     
+                    </Col>
+                  </Row>
                   )
                 )}
-            </ButtonWrapper>
-          ) : (
-            <ServiceWrapper>
-              <Row justify="space-between">
-                {typeof section === "object" &&
-                  section.map(
-                    (
-                      item: {
-                        title: string;
-                        content: string;
-                        icon: string;
-                      },
-                      id: number
-                    ) => (
-                      <Col key={id} span={10}>
-                        <SvgIcon src={item.icon} width="60px" height="60px" />
-                        <MinTitle>{t(item.title)}</MinTitle>
-                        <MinPara>{t(item.content)}</MinPara>
-                      </Col>
-                    )
-                  )}
               </Row>
             </ServiceWrapper>
-          )}
-        </ContentWrapper>
       </Fade>
     </ContentSection>
   );

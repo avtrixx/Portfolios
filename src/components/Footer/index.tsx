@@ -40,7 +40,7 @@ const Footer = ({ t }: { t: TFunction }) => {
         key={src}
         aria-label={src}
       >
-        <SvgIcon src={src} width="25px" height="25px" />
+        <SvgIcon src={src} width="38px" height="38px" />
       </a>
     );
   };
@@ -48,7 +48,7 @@ const Footer = ({ t }: { t: TFunction }) => {
   return (
     <>
       <FooterSection>
-        <Container>
+        <Container >
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
@@ -69,51 +69,42 @@ const Footer = ({ t }: { t: TFunction }) => {
         </Container>
       </FooterSection>
       <Extra>
-        <Container border={true}>
+        <Container >
           <Row
             justify="space-between"
             align="middle"
-            style={{ paddingTop: "3rem" }}
+            style={{ paddingTop: "0rem" }}
           >
-            <NavLink to="/">
-              <LogoContainer>
-                <SvgIcon
-                  src=""
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
-              </LogoContainer>
-            </NavLink>
             <FooterContainer>
-              <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
-              />
-              <SocialLink
+            <SocialLink
                 href="https://www.linkedin.com/in/dr-avinita-gautam-83b427120/"
                 src="linkedin.svg"
               />
+
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
+                href="https://orcid.org/0000-0003-3920-8434"
+                src="orcid.svg"
               />
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  height="36"
-                  style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                  alt="Buy Me a Coffee at ko-fi.com"
-                />
-              </a>
+              <SocialLink
+                href="https://www.webofscience.com/wos/author/record/JZE-0168-2024"
+                src="web-of-science.svg"
+              />
+              <SocialLink
+                href= "https://scholar.google.com/citations?user=yYA5eC8AAAAJ&hl=en"
+                src="google-scholar.svg"
+              />
+               <SocialLink
+                href="https://bhu-in.academia.edu/AVINITAGAUTAM"
+                src="academia.svg"
+              />
+               <SocialLink
+                href="https://www.researchgate.net/profile/Avinita-Gautam "
+                src="researchgate.svg"
+              />
+               <SocialLink
+                href="https://www.growkudos.com/profile/avinita_gautam"
+                src="KUDOS.png"
+              />
             </FooterContainer>
           </Row>
         </Container>
