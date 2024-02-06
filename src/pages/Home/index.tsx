@@ -5,6 +5,7 @@ import Award from "../../content/Award.json";
 import Research from "../../content/Research.json";
 import Teaching from "../../content/Teaching.json";
 import Education from "../../content/Education.json";
+import InvitedTalk from "../../content/InvitedTalk.json";
 import ContentBlockWithImage from "../../components/Resume";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
@@ -65,6 +66,12 @@ const Home = () => {
         content={Award.content}
         icon="developer.svg"
         id="award"
+      />
+      <MiddleBlock
+        title={InvitedTalk.title}
+        content={InvitedTalk.content}
+        icon="developer.svg"
+        id="invitedTalk"
       />
       <ContentBlockWithImage
         direction="left"
