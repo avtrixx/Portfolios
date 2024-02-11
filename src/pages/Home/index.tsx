@@ -7,6 +7,7 @@ import Teaching from "../../content/Teaching.json";
 import Education from "../../content/Education.json";
 import InvitedTalk from "../../content/InvitedTalk.json";
 import ContentBlockWithImage from "../../components/Resume";
+import { Col, Row } from "antd";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -73,10 +74,24 @@ const Home = () => {
         icon="developer.svg"
         id="invitedTalk"
       />
-      <ContentBlockWithImage
-        direction="left"
-        id="resume"
-      />
+      <Row>
+        <Col lg={12} md={11} sm={24} xs={24}>
+          <ContentBlockWithImage
+           name= "Resume"
+            direction="left"
+            id="resume"
+          />
+        </Col>
+
+        <Col lg={12} md={11} sm={24} xs={24} >
+          <ContentBlockWithImage
+           name= "Conferences"
+            direction="right"
+            id="conferences"
+          />
+        </Col>
+      </Row>
+
       {/* <Contact
         title={ContactContent.title}
         content={ContactContent.text}

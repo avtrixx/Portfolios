@@ -4,5 +4,6 @@ export interface ContentBlockWithImageProps {
  
   t: TFunction;
   id: string;
+  name: string;
   direction: "left" | "right";
 }
